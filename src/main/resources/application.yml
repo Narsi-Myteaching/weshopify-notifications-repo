@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: weshopify-notifications-service
+
+server:
+  port: 5023
+  
+sendgrid: 
+ api: 
+   key: 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
+   verifyEmail: http://${USER_SERVICE_HOST:localhost}:${USERS_SERVICE_PORT:5014}/users/verifyUser/
+   from: weshopifyapp@yopmail.com
