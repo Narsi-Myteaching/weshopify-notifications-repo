@@ -7,6 +7,6 @@ server:
   
 sendgrid: 
  api: 
-   key: 
+   key: <use your sendgrid account key>
    verifyEmail: http://${USER_SERVICE_HOST:localhost}:${USERS_SERVICE_PORT:5014}/users/verifyUser/
    from: weshopifyapp@yopmail.com
